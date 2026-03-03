@@ -1,6 +1,6 @@
 # ytui
 
-A production-ready terminal TUI wrapper for `yt-dlp` built with Python and Textual.
+tui for yt-dlp i guess idk
 
 ## Features
 
@@ -41,23 +41,7 @@ ytui
 
 ### Workflow
 
-1. Enter a valid YouTube (or other supported) URL.
-2. Click **Fetch Formats** to see available quality options.
-3. Select a format from the list.
-4. Click **Add to Queue** to start the download.
-
-## Architecture Overview
-
-The project follows a clean architecture pattern:
-
-- `ytui/app.py`: The Textual application orchestration layer.
-- `ytui/runner.py`: Handles `yt-dlp` subprocess management and stdout streaming.
-- `ytui/parser.py`: Regex-based parsing of `yt-dlp` output for progress and formats.
-- `ytui/models.py`: Data structures (`DownloadJob`, `Format`).
-- `ytui/queue.py`: FIFO queue logic for sequential downloads.
-- `ytui/widgets/`: Reusable Textual components for progress, format selection, and status.
-
-## Development
+idk man its shouldnt be that hard
 
 ### Requirements
 
