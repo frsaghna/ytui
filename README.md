@@ -7,9 +7,6 @@ A production-ready terminal TUI wrapper for `yt-dlp` built with Python and Textu
 - **Asynchronous Execution**: Downloads run in the background without blocking the UI.
 - **Format Selection**: Fetch and select specific video/audio formats before downloading.
 - **Download Queue**: Queue up multiple downloads to be processed sequentially.
-- **Live Progress**: Real-time progress bar and status updates.
-- **Clean Architecture**: Separation of concerns between UI, business logic, and subprocess handling.
-- **Log Panel**: Detailed logs for all operations.
 
 ## Installation
 
@@ -17,7 +14,7 @@ Ensure you have `yt-dlp` installed system-wide.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ytui.git
+git clone https://github.com/frsaghna/ytui.git
 cd ytui
 
 # Create and activate a virtual environment
