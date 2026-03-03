@@ -2,11 +2,7 @@
 
 tui for yt-dlp i guess idk
 
-## Features
 
-- **Asynchronous Execution**: Downloads run in the background without blocking the UI.
-- **Format Selection**: Fetch and select specific video/audio formats before downloading.
-- **Download Queue**: Queue up multiple downloads to be processed sequentially.
 
 ## Installation
 
